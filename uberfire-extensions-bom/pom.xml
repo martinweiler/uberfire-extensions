@@ -14,15 +14,13 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.uberfire</groupId>
     <artifactId>uberfire-extensions</artifactId>
-    <version>0.9.1.20171113-prod</version>
+    <version>0.9.0.Final-redhat-13</version>
   </parent>
 
   <artifactId>uberfire-extensions-bom</artifactId>
@@ -48,39 +46,39 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-apps-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-apps-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-apps-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-apps-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-apps-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-apps-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -90,39 +88,39 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-layout-editor-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-layout-editor-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-layout-editor-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-layout-editor-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-layout-editor-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-layout-editor-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -132,39 +130,39 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-metadata-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-metadata-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-metadata-backend-lucene</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-metadata-backend-lucene</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-metadata-commons-io</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-metadata-commons-io</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -173,39 +171,39 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-commons-editor-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-commons-editor-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-commons-editor-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-commons-editor-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-commons-editor-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-commons-editor-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -214,39 +212,39 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-runtime-plugins-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-runtime-plugins-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-runtime-plugins-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-runtime-plugins-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-runtime-plugins-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-runtime-plugins-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -255,13 +253,13 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-servlet-security</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-servlet-security</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -270,118 +268,118 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <type>test-jar</type>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-keycloak</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-keycloak</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-wildfly-commons</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-wildfly-commons</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-wildfly-commons</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <type>test-jar</type>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-wildfly8</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-wildfly8</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-wildfly10</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-wildfly10</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-tomcat</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-tomcat</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -390,39 +388,39 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-commons</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-commons</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-service-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-service-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-service-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-service-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -431,13 +429,13 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-core-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-core-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -446,13 +444,13 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widget-markdown</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widget-markdown</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -461,39 +459,39 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-properties-editor-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-properties-editor-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-properties-editor-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-properties-editor-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-properties-editor-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-properties-editor-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -502,39 +500,39 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-security-management</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-widgets-security-management</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-client-wb</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-client-wb</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
       
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-webapp</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-security-management-webapp</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
       
@@ -543,143 +541,143 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bayesian-network-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bayesian-network-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bayesian-parser-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bayesian-parser-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bayesian-parser-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bayesian-parser-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-core-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-core-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-core-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-core-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-core-scratchpad</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-core-scratchpad</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-core-trees</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-core-trees</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-webapp</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-webapp</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bpmn-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bpmn-api</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bpmn-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bpmn-backend</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bpmn-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
 
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-wires-bpmn-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 
@@ -687,12 +685,12 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-simple-docks-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
       </dependency>
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-simple-docks-client</artifactId>
-        <version>${project.version}</version>
+        <version>0.9.0.Final-redhat-13</version>
         <classifier>sources</classifier>
       </dependency>
 

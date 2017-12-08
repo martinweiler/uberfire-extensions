@@ -14,14 +14,11 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>uberfire-security-management</artifactId>
     <groupId>org.uberfire</groupId>
-    <version>0.9.1.20171113-prod</version>
+    <version>0.9.0.Final-redhat-13</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -486,7 +483,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <execute/>
+                    <execute></execute>
                   </action>
                 </pluginExecution>
               </pluginExecutions>

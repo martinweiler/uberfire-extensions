@@ -14,27 +14,43 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.uberfire</groupId>
     <artifactId>uberfire-parent-metadata</artifactId>
     <!-- Keep in sync with property <version.org.uberfire> declared in uberfire-extensions-deps -->
-    <version>0.9.1.20171113-prod</version>
+    <version>0.9.0.Final-redhat-13</version>
   </parent>
 
   <artifactId>uberfire-extensions</artifactId>
   <packaging>pom</packaging>
+  <version>0.9.0.Final-redhat-13</version>
 
   <name>Extensions to UberFire</name>
 
   <properties>
     <!-- JDK8 needed to build the project (because of WildFly 10 integration), but Java 6 still support for backend -->
     <jdk.min.version>1.8</jdk.min.version>
+    <jboss.dist.version>7.5.10.Final-redhat-2</jboss.dist.version>
+    <version.org.kie.latestFinal.release>6.5.0.Final-redhat-17</version.org.kie.latestFinal.release>
+    <version.org.jboss.errai.cdi10-compatible>3.0.6.Final-redhat-1</version.org.jboss.errai.cdi10-compatible>
+    <version.org.uberfire.ext>0.9.0.Final-redhat-13</version.org.uberfire.ext>
+    <version.org.mvel>2.2.8.Final-redhat-1</version.org.mvel>
+    <version.fuse.eap>6.2.1.redhat-117</version.fuse.eap>
+    <version.org.kie.workbench.app>6.4.7.GA</version.org.kie.workbench.app>
+    <version.org.jboss.as>7.5.10.Final-redhat-2</version.org.jboss.as>
+    <version.brms-bpmsuite.previous.patch>6.4.6.GA-redhat-1</version.brms-bpmsuite.previous.patch>
+    <version.org.jboss.bom.brms>6.4.7.GA-redhat-1</version.org.jboss.bom.brms>
+    <version.org.kie>6.5.0.Final-redhat-17</version.org.kie>
+    <version.brms-bpmsuite.latest.release>6.4.0.GA-redhat-2</version.brms-bpmsuite.latest.release>
+    <version.org.jboss.integration-platform>6.0.8.Final-redhat-6</version.org.jboss.integration-platform>
+    <version.brms-bpmsuite.latest.patch.user.facing>6.4.7</version.brms-bpmsuite.latest.patch.user.facing>
+    <version.org.uberfire>0.9.0.Final-redhat-13</version.org.uberfire>
+    <version.brms-bpmsuite.latest.patch>6.4.7.GA-redhat-1</version.brms-bpmsuite.latest.patch>
+    <version.org.jboss.errai>3.2.5.Final-redhat-1</version.org.jboss.errai>
+    <version.org.dashbuilder>0.5.0.Final-redhat-13</version.org.dashbuilder>
   </properties>
 
   <modules>
@@ -54,9 +70,9 @@
   <repositories>
     <!-- Bootstrap repository to locate the parent pom when the parent pom has not been build locally. -->
     <repository>
-      <id>jboss-public-repository-group</id>
-      <name>JBoss Public Repository Group</name>
-      <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+      <id>jboss-enterprise-repository-group</id>
+      <name>JBoss Enterprise Maven Repository</name>
+      <url>https://maven.repository.redhat.com/ga/</url>
       <layout>default</layout>
       <releases>
         <enabled>true</enabled>
@@ -69,4 +85,29 @@
     </repository>
   </repositories>
 
+  <dependencyManagement></dependencyManagement>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.commonjava.maven.plugins</groupId>
+        <artifactId>project-sources-maven-plugin</artifactId>
+        <version>1.0</version>
+        <executions>
+          <execution>
+            <id>project-sources-archive</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>archive</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
 </project>
+<!--
+Modified by POM Manipulation Extension for Maven 2.12 ( SHA: e8e62c69 ) 
+-->
+
