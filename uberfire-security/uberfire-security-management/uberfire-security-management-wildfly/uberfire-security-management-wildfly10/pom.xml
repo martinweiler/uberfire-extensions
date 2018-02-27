@@ -23,6 +23,7 @@
   </parent>
 
   <artifactId>uberfire-security-management-wildfly10</artifactId>
+  <version>0.9.0.Final-redhat-13-RHBRMS-3079</version>
   <packaging>jar</packaging>
 
   <name>Uberfire Security Management - Provider Implementation for WildFly 10</name>
